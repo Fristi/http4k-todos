@@ -1,8 +1,8 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+target/
+gradle/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -15,9 +15,6 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-
-### Kotlin ###
-.kotlin
 
 ### Eclipse ###
 .apt_generated
@@ -37,9 +34,15 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
 
 ### Mac OS ###
 .DS_Store
+
+### Scala ###
+.bsp/
