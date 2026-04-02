@@ -30,6 +30,9 @@ dependencies {
     implementation("org.http4k:http4k-format-kotlinx-serialization") // JSON lens
     implementation("org.http4k:http4k-format-jackson")
 
+    // Configuration
+    implementation("com.uchuhimo:konf-core:1.1.2")
+
     // Exposed
     implementation("org.jetbrains.exposed:exposed-core:0.50.+")
     implementation("org.jetbrains.exposed:exposed-dao:0.50.+")
